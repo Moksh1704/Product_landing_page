@@ -1,0 +1,214 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.row.featurette {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2rem; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 300px;
+}
+
+
+.row.featurette.step2 {
+    background-color:#f6f2f3;
+}
+
+.col-md-7, .col-md-5 {
+    flex: 1;
+    padding: 15px;
+}
+
+
+.featurette-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.featurette-heading .text-body-secondary {
+    color: #6c757d; 
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.featurette p.lead {
+    font-size: 1.25rem;
+    color: #555;
+    text-align: center;
+}
+
+.featurette-image {
+    border-radius: 10px; 
+    max-width: 100%;
+    height: auto; 
+}
+
+@media (max-width: 768px) {
+    .row.featurette {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .col-md-7, .col-md-5 {
+        flex: none;
+        width: 100%;
+    }
+    
+    .featurette-heading {
+        font-size: 1.75rem;
+    }
+    
+    .featurette p.lead {
+        font-size: 1rem;
+    }
+}
+header {
+    background-color: #e4cdd2; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.background {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h1 {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    margin: 50px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+.button {
+    background-color: #8d515a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.division {
+    background-color: #e4cdd2; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+.lead {
+    font-family: monospace;
+    font-size: 1.5em;
+    padding-top: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact {
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h4 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.contact p {
+    margin-top: 20px;
+}
+
+.input-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.inputbox {
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #9a8888;
+    border-radius: 20px;
+    background-color: #fffafa;
+    color: #000;
+    font-size: 1.2em;
+}
+
+.inputbox::placeholder {
+    color: #9a8888;
+}
+
+.inputbox:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.order-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 100%;
+    border: none;
+    background-color: #34302c;
+    color: #fff;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: #67696c;
+}
+.under{
+    font-size: larger;
+    font-family: cursive;
+    color: #fff;
+    font-weight: bolder;
+    text-align: justify;
+}
